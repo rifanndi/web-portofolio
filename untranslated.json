@@ -1,0 +1,277 @@
+[
+  {
+    "path": "body > nav > div > a > span",
+    "class": "tone-left",
+    "text": "WhatsApp"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > div > div",
+    "class": "hud-metric-val",
+    "text": "2x"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > div > div",
+    "class": "hud-metric-val",
+    "text": "BNSP"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > span",
+    "class": "hud-tag",
+    "text": "Custom WordPress"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > span",
+    "class": "hud-tag",
+    "text": "React.js & MUI"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > span",
+    "class": "hud-tag",
+    "text": "PHP & JavaScript"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > span",
+    "class": "hud-tag",
+    "text": "Technical SEO"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > span",
+    "class": "hud-tag",
+    "text": "LLM Prompt & Workflow"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > span",
+    "class": "hud-tag",
+    "text": "WooCommerce"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > span",
+    "class": "hud-tag",
+    "text": "Core Web Vitals"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > div > div",
+    "class": "",
+    "text": "LOCATION"
+  },
+  {
+    "path": "body > section > div > div > div > div > div > div > div",
+    "class": "",
+    "text": "Yogyakarta, ID"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > h4",
+    "class": "",
+    "text": "Universitas AMIKOM Yogyakarta"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > span",
+    "class": "skill-pill",
+    "text": "Custom Theme & Plugin Dev"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > span",
+    "class": "skill-pill",
+    "text": "React.js & Material UI (MUI)"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > span",
+    "class": "skill-pill highlight",
+    "text": "Technical SEO & Schema Markup"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > span",
+    "class": "skill-pill",
+    "text": "LLM Prompt & Workflow"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "",
+    "text": "Gemilang Multi Teknologi (GMT)"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "",
+    "text": "PT Nusa Coco Solusindo"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "",
+    "text": "CV Nastech"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "",
+    "text": "PT Praisindo Teknologi"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "WordPress"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Global SEO"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Coco Fiber Indonesia"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "WordPress"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Industrial"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Inquiry Form"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Abadi Charcoal"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Indofon — Indonesia Plafon Semesta"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Landing Page"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Fast Conversion"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Herbal BPOM"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "YaconiS Gluko Herbal"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "WordPress"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Direct Checkout"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Etawa Royal Indonesia"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Fonda Plafon PVC"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Hospitality"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Probosiwi Resort & Cafe"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Royal Madina Tour"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "WooCommerce"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Sarana Ilmu"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Personal Brand"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Guntur Setyo Official"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Healthy Food"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "E-Commerce"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Beras Porang Diet Meal"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > div > span",
+    "class": "project-tech-tag",
+    "text": "Local SEO Jogja"
+  },
+  {
+    "path": "body > section > section > div > div > div > div > h3",
+    "class": "project-title",
+    "text": "Pasang Plafon PVC Jogja"
+  },
+  {
+    "path": "body > section > footer > div > div > div > h4 > span",
+    "class": "",
+    "text": "Annas Shahruri"
+  },
+  {
+    "path": "body > section > footer > div > div > div > ul > li > a",
+    "class": "",
+    "text": "rifandiannass@gmail.com"
+  },
+  {
+    "path": "body > section > footer > div > div > div > ul > li > a",
+    "class": "",
+    "text": "LinkedIn Profil"
+  },
+  {
+    "path": "body > section > footer > div > div > div > ul > li > a",
+    "class": "",
+    "text": "Yogyakarta, Indonesia"
+  },
+  {
+    "path": "body > section > div > div > div > h3",
+    "class": "modal-title",
+    "text": "Judul Proyek"
+  },
+  {
+    "path": "body > section > div > div > div > p",
+    "class": "modal-description",
+    "text": "Deskripsi proyek lengkap."
+  }
+]
