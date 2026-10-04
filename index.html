@@ -342,14 +342,14 @@
             cursor: pointer;
             padding: 10px;
             border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(37,99,235,0.35);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
             transition: var(--transition-smooth);
             flex-shrink: 0;
         }
 
         .nav-toggle:hover {
             transform: scale(1.05);
-            box-shadow: 0 6px 18px rgba(37,99,235,0.5);
+            box-shadow: 0 6px 18px rgba(37, 99, 235, 0.5);
         }
 
         .nav-toggle span {
@@ -1436,14 +1436,14 @@
             padding: 0;
             overflow: hidden;
             border-radius: 20px;
-            background: rgba(255,255,255,0.72);
+            background: rgba(255, 255, 255, 0.72);
             backdrop-filter: blur(18px);
             -webkit-backdrop-filter: blur(18px);
-            border: 1px solid rgba(255,255,255,0.55);
+            border: 1px solid rgba(255, 255, 255, 0.55);
             box-shadow:
-                0 4px 24px rgba(37,99,235,0.07),
-                0 1.5px 0 rgba(255,255,255,0.85) inset;
-            transition: transform 0.4s cubic-bezier(0.16,1,0.3,1),
+                0 4px 24px rgba(37, 99, 235, 0.07),
+                0 1.5px 0 rgba(255, 255, 255, 0.85) inset;
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
                 border-color 0.4s ease,
                 box-shadow 0.4s ease;
             cursor: pointer;
@@ -1454,11 +1454,11 @@
 
         .project-card-3d:hover {
             transform: translateY(-8px) scale(1.015);
-            border-color: rgba(37,99,235,0.35);
+            border-color: rgba(37, 99, 235, 0.35);
             box-shadow:
-                0 24px 56px rgba(37,99,235,0.14),
-                0 0 28px rgba(16,185,129,0.10),
-                0 1.5px 0 rgba(255,255,255,0.9) inset;
+                0 24px 56px rgba(37, 99, 235, 0.14),
+                0 0 28px rgba(16, 185, 129, 0.10),
+                0 1.5px 0 rgba(255, 255, 255, 0.9) inset;
         }
 
         /* Glassmorphism image area */
@@ -1467,9 +1467,9 @@
             width: 100%;
             height: 220px;
             background: linear-gradient(135deg,
-                rgba(37,99,235,0.12) 0%,
-                rgba(16,185,129,0.10) 50%,
-                rgba(79,172,254,0.15) 100%);
+                    rgba(37, 99, 235, 0.12) 0%,
+                    rgba(16, 185, 129, 0.10) 50%,
+                    rgba(79, 172, 254, 0.15) 100%);
             overflow: hidden;
             display: flex;
             align-items: center;
@@ -1483,8 +1483,8 @@
             position: absolute;
             inset: 0;
             background:
-                radial-gradient(ellipse at 20% 30%, rgba(37,99,235,0.18) 0%, transparent 60%),
-                radial-gradient(ellipse at 80% 70%, rgba(16,185,129,0.15) 0%, transparent 60%);
+                radial-gradient(ellipse at 20% 30%, rgba(37, 99, 235, 0.18) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 70%, rgba(16, 185, 129, 0.15) 0%, transparent 60%);
             pointer-events: none;
             z-index: 0;
         }
@@ -1493,11 +1493,13 @@
         .project-mockup-wrap::after {
             content: '';
             position: absolute;
-            bottom: 0; left: 0; right: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
             height: 56px;
             background: linear-gradient(to top,
-                rgba(255,255,255,0.65) 0%,
-                transparent 100%);
+                    rgba(255, 255, 255, 0.65) 0%,
+                    transparent 100%);
             backdrop-filter: blur(2px);
             pointer-events: none;
             z-index: 1;
@@ -1509,14 +1511,14 @@
             object-fit: contain;
             position: relative;
             z-index: 2;
-            transition: transform 0.5s cubic-bezier(0.16,1,0.3,1),
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1),
                 filter 0.4s ease;
-            filter: drop-shadow(0 8px 24px rgba(37,99,235,0.18));
+            filter: drop-shadow(0 8px 24px rgba(37, 99, 235, 0.18));
         }
 
         .project-card-3d:hover .project-mockup-wrap img {
             transform: scale(1.07) translateY(-5px);
-            filter: drop-shadow(0 14px 32px rgba(37,99,235,0.28));
+            filter: drop-shadow(0 14px 32px rgba(37, 99, 235, 0.28));
         }
 
         /* Category badge - glass pill */
@@ -1530,13 +1532,13 @@
             font-size: 0.67rem;
             font-weight: 700;
             letter-spacing: 0.5px;
-            background: rgba(255,255,255,0.88);
+            background: rgba(255, 255, 255, 0.88);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(37,99,235,0.2);
+            border: 1px solid rgba(37, 99, 235, 0.2);
             color: var(--tone-cyan);
             z-index: 5;
-            box-shadow: 0 2px 8px rgba(37,99,235,0.12);
+            box-shadow: 0 2px 8px rgba(37, 99, 235, 0.12);
         }
 
         /* Details area */
@@ -1545,7 +1547,7 @@
             display: flex;
             flex-direction: column;
             flex-grow: 1;
-            background: rgba(255,255,255,0.6);
+            background: rgba(255, 255, 255, 0.6);
         }
 
         .project-title {
@@ -1578,8 +1580,8 @@
             font-weight: 600;
             padding: 3px 9px;
             border-radius: 6px;
-            background: rgba(37,99,235,0.07);
-            border: 1px solid rgba(37,99,235,0.15);
+            background: rgba(37, 99, 235, 0.07);
+            border: 1px solid rgba(37, 99, 235, 0.15);
             color: #2563EB;
             letter-spacing: 0.2px;
         }
@@ -1589,7 +1591,7 @@
             align-items: center;
             justify-content: space-between;
             padding-top: 12px;
-            border-top: 1px solid rgba(37,99,235,0.1);
+            border-top: 1px solid rgba(37, 99, 235, 0.1);
         }
 
         .project-cta-link {
@@ -1695,7 +1697,7 @@
         .project-modal {
             position: fixed;
             inset: 0;
-            background: rgba(15, 23, 42, 0.72);
+            background: rgba(255, 255, 255, 0.75);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             z-index: 10000;
@@ -1714,10 +1716,10 @@
         }
 
         .modal-content-box {
-            background: rgba(255,255,255,0.97);
+            background: rgba(255, 255, 255, 0.97);
             backdrop-filter: blur(32px);
             -webkit-backdrop-filter: blur(32px);
-            border: 1px solid rgba(37,99,235,0.15);
+            border: 1px solid rgba(37, 99, 235, 0.15);
             border-radius: 24px;
             max-width: 860px;
             width: 100%;
@@ -1725,17 +1727,23 @@
             overflow-y: auto;
             position: relative;
             box-shadow:
-                0 32px 80px rgba(37,99,235,0.18),
-                0 0 0 1px rgba(255,255,255,0.9) inset;
+                0 32px 80px rgba(37, 99, 235, 0.18),
+                0 0 0 1px rgba(255, 255, 255, 0.9) inset;
             transform: scale(0.93) translateY(24px);
-            transition: transform 0.35s cubic-bezier(0.16,1,0.3,1);
+            transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         /* Custom scrollbar inside modal */
-        .modal-content-box::-webkit-scrollbar { width: 5px; }
-        .modal-content-box::-webkit-scrollbar-track { background: transparent; }
+        .modal-content-box::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .modal-content-box::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
         .modal-content-box::-webkit-scrollbar-thumb {
-            background: rgba(37,99,235,0.3);
+            background: rgba(37, 99, 235, 0.3);
             border-radius: 99px;
         }
 
@@ -1758,7 +1766,7 @@
             justify-content: center;
             cursor: pointer;
             z-index: 10;
-            box-shadow: 0 4px 14px rgba(244,63,94,0.4);
+            box-shadow: 0 4px 14px rgba(244, 63, 94, 0.4);
             transition: transform 0.18s ease, box-shadow 0.18s ease;
             user-select: none;
             font-size: 1rem;
@@ -1766,7 +1774,7 @@
 
         .modal-close-btn:hover {
             transform: translateY(-2px) rotate(90deg);
-            box-shadow: 0 8px 22px rgba(244,63,94,0.55);
+            box-shadow: 0 8px 22px rgba(244, 63, 94, 0.55);
         }
 
         .modal-close-btn:active {
@@ -1778,9 +1786,9 @@
             width: 100%;
             height: 280px;
             background: linear-gradient(135deg,
-                rgba(37,99,235,0.1) 0%,
-                rgba(16,185,129,0.08) 50%,
-                rgba(79,172,254,0.12) 100%);
+                    rgba(37, 99, 235, 0.1) 0%,
+                    rgba(16, 185, 129, 0.08) 50%,
+                    rgba(79, 172, 254, 0.12) 100%);
             border-radius: 24px 24px 0 0;
             overflow: hidden;
             display: flex;
@@ -1795,8 +1803,8 @@
             position: absolute;
             inset: 0;
             background:
-                radial-gradient(ellipse at 15% 25%, rgba(37,99,235,0.14) 0%, transparent 55%),
-                radial-gradient(ellipse at 85% 75%, rgba(16,185,129,0.12) 0%, transparent 55%);
+                radial-gradient(ellipse at 15% 25%, rgba(37, 99, 235, 0.14) 0%, transparent 55%),
+                radial-gradient(ellipse at 85% 75%, rgba(16, 185, 129, 0.12) 0%, transparent 55%);
         }
 
         .modal-preview-img {
@@ -1805,7 +1813,7 @@
             object-fit: contain;
             position: relative;
             z-index: 2;
-            filter: drop-shadow(0 12px 32px rgba(37,99,235,0.22));
+            filter: drop-shadow(0 12px 32px rgba(37, 99, 235, 0.22));
             border-radius: 10px;
         }
 
@@ -1827,8 +1835,8 @@
             font-size: 0.73rem;
             font-weight: 700;
             color: #2563EB;
-            background: rgba(37,99,235,0.08);
-            border: 1px solid rgba(37,99,235,0.2);
+            background: rgba(37, 99, 235, 0.08);
+            border: 1px solid rgba(37, 99, 235, 0.2);
             padding: 4px 14px;
             border-radius: var(--radius-full);
         }
@@ -1850,8 +1858,8 @@
         }
 
         .modal-highlights {
-            background: linear-gradient(135deg, rgba(37,99,235,0.04), rgba(16,185,129,0.04));
-            border: 1px solid rgba(37,99,235,0.12);
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.04), rgba(16, 185, 129, 0.04));
+            border: 1px solid rgba(37, 99, 235, 0.12);
             border-radius: var(--radius-md);
             padding: 18px 22px;
             margin-bottom: 24px;
@@ -2452,7 +2460,8 @@
                     <span class="tone-left">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                         </svg>
                         WhatsApp Direct
                     </span>
@@ -2467,8 +2476,10 @@
 
                 <div class="drawer-divider"></div>
                 <div class="nav-mobile-lang">
-                    <span class="drawer-section-title" style="margin-bottom:0;" data-i18n="drawer_lang_title">Language / Bahasa:</span>
-                    <div class="lang-switch-wrap" id="lang-toggle-mobile" role="button" tabindex="0" aria-label="Switch language">
+                    <span class="drawer-section-title" style="margin-bottom:0;" data-i18n="drawer_lang_title">Language /
+                        Bahasa:</span>
+                    <div class="lang-switch-wrap" id="lang-toggle-mobile" role="button" tabindex="0"
+                        aria-label="Switch language">
                         <span class="lang-switch-label">EN</span>
                         <div class="lang-switch-track">
                             <div class="lang-switch-knob"></div>
@@ -2543,79 +2554,80 @@
                         <div class="hero-btn-row-primary">
                             <!-- Dual Tone Button 1 -->
                             <a href="#projects" class="btn-dual-tone" id="hero-btn-projects">
-                            <span class="tone-left">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <polygon points="12 2 2 7 12 12 22 7 12 2" />
-                                    <polyline points="2 17 12 22 22 17" />
-                                    <polyline points="2 12 12 17 22 12" />
-                                </svg>
-                                <span data-i18n="hero_btn_portfolio">Explore Portfolio</span>
-                            </span>
-                            <span class="tone-right">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <polyline points="9 18 15 12 9 6" />
-                                </svg>
-                            </span>
-                        </a>
+                                <span class="tone-left">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                                        <polyline points="2 17 12 22 22 17" />
+                                        <polyline points="2 12 12 17 22 12" />
+                                    </svg>
+                                    <span data-i18n="hero_btn_portfolio">Explore Portfolio</span>
+                                </span>
+                                <span class="tone-right">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="9 18 15 12 9 6" />
+                                    </svg>
+                                </span>
+                            </a>
 
-                        <!-- Dual Tone Outline 2 -->
-                        <a href="mailto:rifandiannass@gmail.com" class="btn-dual-outline" id="hero-btn-contact">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <rect width="20" height="16" x="2" y="4" rx="2" />
-                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                            </svg>
-                            <span data-i18n="hero_btn_email">Contact via Email</span>
-                        </a>
+                            <!-- Dual Tone Outline 2 -->
+                            <a href="mailto:rifandiannass@gmail.com" class="btn-dual-outline" id="hero-btn-contact">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                                </svg>
+                                <span data-i18n="hero_btn_email">Contact via Email</span>
+                            </a>
 
                         </div>
 
-                    <!-- Secondary Links & Downloads (Row 2) -->
-                    <div class="hero-btn-row-secondary">
-                        <a href="https://linkedin.com/in/rifandi-annas-shahruri/" target="_blank"
-                            rel="noopener noreferrer" class="btn-hero-pill btn-pill-linkedin" id="hero-btn-linkedin">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path
-                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                                <rect width="4" height="12" x="2" y="9" />
-                                <circle cx="4" cy="4" r="2" />
-                            </svg>
-                            <span data-i18n="hero_btn_linkedin">LinkedIn Profile</span>
-                        </a>
+                        <!-- Secondary Links & Downloads (Row 2) -->
+                        <div class="hero-btn-row-secondary">
+                            <a href="https://linkedin.com/in/rifandi-annas-shahruri/" target="_blank"
+                                rel="noopener noreferrer" class="btn-hero-pill btn-pill-linkedin"
+                                id="hero-btn-linkedin">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect width="4" height="12" x="2" y="9" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg>
+                                <span data-i18n="hero_btn_linkedin">LinkedIn Profile</span>
+                            </a>
 
-                        <a href="#" id="btn-download-portfolio" class="btn-hero-pill btn-pill-download" download>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                                <polyline points="7 10 12 15 17 10" />
-                                <line x1="12" y1="15" x2="12" y2="3" />
-                            </svg>
-                            <span data-i18n="btn_dl_portfolio">Portfolio PDF</span>
-                            <span class="pill-badge">PDF</span>
-                        </a>
+                            <a href="#" id="btn-download-portfolio" class="btn-hero-pill btn-pill-download" download>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                    <polyline points="7 10 12 15 17 10" />
+                                    <line x1="12" y1="15" x2="12" y2="3" />
+                                </svg>
+                                <span data-i18n="btn_dl_portfolio">Portfolio PDF</span>
+                                <span class="pill-badge">PDF</span>
+                            </a>
 
-                        <a href="#" id="btn-download-cv" class="btn-hero-pill btn-pill-download" download>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                                <polyline points="14 2 14 8 20 8" />
-                                <line x1="16" y1="13" x2="8" y2="13" />
-                                <line x1="16" y1="17" x2="8" y2="17" />
-                            </svg>
-                            <span data-i18n="btn_dl_cv">Download CV</span>
-                            <span class="pill-badge">CV</span>
-                        </a>
+                            <a href="#" id="btn-download-cv" class="btn-hero-pill btn-pill-download" download>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                    <polyline points="14 2 14 8 20 8" />
+                                    <line x1="16" y1="13" x2="8" y2="13" />
+                                    <line x1="16" y1="17" x2="8" y2="17" />
+                                </svg>
+                                <span data-i18n="btn_dl_cv">Download CV</span>
+                                <span class="pill-badge">CV</span>
+                            </a>
+                        </div>
                     </div>
-                </div>
 
                     <!-- Stats Strip -->
                     <div class="stats-strip gsap-hero">
@@ -2960,7 +2972,12 @@
                     data-url="https://cocofiberindonesia.com" data-category="Ekspor & B2B Global"
                     data-img="assets/mockups/Macbook-Air-cocofiberindonesia.com.png"
                     data-desc="Platform korporat resmi PT Nusa Coco Solusindo untuk memasarkan komoditas sabut kelapa dan produk turunan kelapa organik ke pasar global dengan arsitektur multibahasa dan SEO internasional."
-                    data-tags="WordPress,Technical SEO,B2B Export,International Content" data-category-en="Export & Global B2B" data-category-id="Ekspor & B2B Global" data-desc-en="Official corporate platform for PT Nusa Coco Solusindo to market organic coco fiber and coconut derivatives to the global market with multilingual architecture and international SEO." data-desc-id="Platform korporat resmi PT Nusa Coco Solusindo untuk memasarkan komoditas sabut kelapa dan produk turunan kelapa organik ke pasar global dengan arsitektur multibahasa dan SEO internasional." data-tags-en="WordPress,Technical SEO,B2B Export,International Content" data-tags-id="WordPress,SEO Teknis,Ekspor B2B,Konten Internasional">
+                    data-tags="WordPress,Technical SEO,B2B Export,International Content"
+                    data-category-en="Export & Global B2B" data-category-id="Ekspor & B2B Global"
+                    data-desc-en="Official corporate platform for PT Nusa Coco Solusindo to market organic coco fiber and coconut derivatives to the global market with multilingual architecture and international SEO."
+                    data-desc-id="Platform korporat resmi PT Nusa Coco Solusindo untuk memasarkan komoditas sabut kelapa dan produk turunan kelapa organik ke pasar global dengan arsitektur multibahasa dan SEO internasional."
+                    data-tags-en="WordPress,Technical SEO,B2B Export,International Content"
+                    data-tags-id="WordPress,SEO Teknis,Ekspor B2B,Konten Internasional">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p1_badge">Export & B2B</span>
                         <img src="assets/mockups/Macbook-Air-cocofiberindonesia.com.png" alt="Coco Fiber Indonesia"
@@ -2996,7 +3013,12 @@
                     data-url="https://abadicharcoal.com" data-category="Ekspor & B2B Global"
                     data-img="assets/mockups/Macbook-Air-abadicharcoal.com.png"
                     data-desc="Website manufaktur dan ekspor briket arang kelapa premium untuk kebutuhan shisha dan BBQ internasional. Dilengkapi spesifikasi teknis laboratorium dan formulir inquiry B2B langsung."
-                    data-tags="WordPress,Briket Arang,Export B2B,Schema Markup" data-category-en="Export & Global B2B" data-category-id="Ekspor & B2B Global" data-desc-en="Manufacturing and export website for premium coconut charcoal briquettes for international shisha and BBQ needs. Features technical laboratory specifications and direct B2B inquiry form." data-desc-id="Website manufaktur dan ekspor briket arang kelapa premium untuk kebutuhan shisha dan BBQ internasional. Dilengkapi spesifikasi teknis laboratorium dan formulir inquiry B2B langsung." data-tags-en="WordPress,Charcoal Briquettes,Export B2B,Schema Markup" data-tags-id="WordPress,Briket Arang,Ekspor B2B,Schema Markup">
+                    data-tags="WordPress,Briket Arang,Export B2B,Schema Markup" data-category-en="Export & Global B2B"
+                    data-category-id="Ekspor & B2B Global"
+                    data-desc-en="Manufacturing and export website for premium coconut charcoal briquettes for international shisha and BBQ needs. Features technical laboratory specifications and direct B2B inquiry form."
+                    data-desc-id="Website manufaktur dan ekspor briket arang kelapa premium untuk kebutuhan shisha dan BBQ internasional. Dilengkapi spesifikasi teknis laboratorium dan formulir inquiry B2B langsung."
+                    data-tags-en="WordPress,Charcoal Briquettes,Export B2B,Schema Markup"
+                    data-tags-id="WordPress,Briket Arang,Ekspor B2B,Schema Markup">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p2_badge">Export & B2B</span>
                         <img src="assets/mockups/Macbook-Air-abadicharcoal.com.png" alt="Abadi Charcoal"
@@ -3032,7 +3054,12 @@
                     data-url="https://indofon.com" data-category="Plafon PVC & Konstruksi"
                     data-img="assets/mockups/Macbook-Air-indofon.com.png"
                     data-desc="Platform korporat PT Indonesia Plafon Semesta (Indofon) sebagai produsen plafon PVC modern terbesar. Memiliki sistem direktori distributor di 34 provinsi, katalog motif 3D, dan kalkulator kebutuhan material plafon."
-                    data-tags="WordPress,Corporate,Katalog 3D,Distributor Network" data-category-en="PVC Ceiling & Construction" data-category-id="Plafon PVC & Konstruksi" data-desc-en="Corporate platform for PT Indonesia Plafon Semesta (Indofon) as the largest modern PVC ceiling manufacturer. Features a distributor directory in 34 provinces, 3D pattern catalog, and ceiling material estimator." data-desc-id="Platform korporat PT Indonesia Plafon Semesta (Indofon) sebagai produsen plafon PVC modern terbesar. Memiliki sistem direktori distributor di 34 provinsi, katalog motif 3D, dan kalkulator kebutuhan material plafon." data-tags-en="WordPress,Corporate,3D Catalog,Distributor Network" data-tags-id="WordPress,Korporat,Katalog 3D,Jaringan Distributor">
+                    data-tags="WordPress,Corporate,Katalog 3D,Distributor Network"
+                    data-category-en="PVC Ceiling & Construction" data-category-id="Plafon PVC & Konstruksi"
+                    data-desc-en="Corporate platform for PT Indonesia Plafon Semesta (Indofon) as the largest modern PVC ceiling manufacturer. Features a distributor directory in 34 provinces, 3D pattern catalog, and ceiling material estimator."
+                    data-desc-id="Platform korporat PT Indonesia Plafon Semesta (Indofon) sebagai produsen plafon PVC modern terbesar. Memiliki sistem direktori distributor di 34 provinsi, katalog motif 3D, dan kalkulator kebutuhan material plafon."
+                    data-tags-en="WordPress,Corporate,3D Catalog,Distributor Network"
+                    data-tags-id="WordPress,Korporat,Katalog 3D,Jaringan Distributor">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p3_badge">Industry & Factory</span>
                         <img src="assets/mockups/Macbook-Air-indofon.com.png" alt="Indofon Plafon PVC" loading="lazy" />
@@ -3067,7 +3094,12 @@
                     data-url="https://yaconis.id" data-category="Herbal & E-Commerce"
                     data-img="assets/mockups/Macbook-Air-yaconis.id.png"
                     data-desc="Landing page produk kesehatan herbal daun yakon untuk penderita diabetes. Dirancang dengan prinsip conversion-rate optimization (CRO), integrasi WhatsApp Checkout instan, dan sertifikasi BPOM."
-                    data-tags="WordPress,Landing Page,CRO,WhatsApp Gateway" data-category-en="Herbal & E-Commerce" data-category-id="Herbal & E-Commerce" data-desc-en="High-conversion herbal health product landing page for diabetes care made from yacon leaves. Designed with conversion-rate optimization (CRO), instant WhatsApp Checkout, and BPOM certification." data-desc-id="Landing page produk kesehatan herbal daun yakon untuk penderita diabetes. Dirancang dengan prinsip conversion-rate optimization (CRO), integrasi WhatsApp Checkout instan, dan sertifikasi BPOM." data-tags-en="WordPress,Landing Page,CRO,WhatsApp Gateway" data-tags-id="WordPress,Landing Page,CRO,Gateway WhatsApp">
+                    data-tags="WordPress,Landing Page,CRO,WhatsApp Gateway" data-category-en="Herbal & E-Commerce"
+                    data-category-id="Herbal & E-Commerce"
+                    data-desc-en="High-conversion herbal health product landing page for diabetes care made from yacon leaves. Designed with conversion-rate optimization (CRO), instant WhatsApp Checkout, and BPOM certification."
+                    data-desc-id="Landing page produk kesehatan herbal daun yakon untuk penderita diabetes. Dirancang dengan prinsip conversion-rate optimization (CRO), integrasi WhatsApp Checkout instan, dan sertifikasi BPOM."
+                    data-tags-en="WordPress,Landing Page,CRO,WhatsApp Gateway"
+                    data-tags-id="WordPress,Landing Page,CRO,Gateway WhatsApp">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p4_badge">Herbal & E-Commerce</span>
                         <img src="assets/mockups/Macbook-Air-yaconis.id.png" alt="Yaconis.id" loading="lazy" />
@@ -3102,7 +3134,12 @@
                     data-url="https://etawaroyal.com" data-category="Herbal & E-Commerce"
                     data-img="assets/mockups/Macbook-Air-etawaroyal.com.png"
                     data-desc="Situs resmi susu kambing etawa premium untuk kesehatan pernapasan dan sendi. Dilengkapi video interaktif testimoni, kalkulator order hemat, dan checkout integrasi kurir."
-                    data-tags="WordPress,WooCommerce,Responsive,SEO Optimasi" data-category-en="Herbal & E-Commerce" data-category-id="Herbal & E-Commerce" data-desc-en="Official platform for premium royal etawa goat milk for respiratory and joint wellness. Includes interactive testimonial video, volume discount order calculator, and integrated courier checkout." data-desc-id="Situs resmi susu kambing etawa premium untuk kesehatan pernapasan dan sendi. Dilengkapi video interaktif testimoni, kalkulator order hemat, dan checkout integrasi kurir." data-tags-en="WordPress,WooCommerce,Responsive UI,SEO Optimization" data-tags-id="WordPress,WooCommerce,UI Responsif,Optimasi SEO">
+                    data-tags="WordPress,WooCommerce,Responsive,SEO Optimasi" data-category-en="Herbal & E-Commerce"
+                    data-category-id="Herbal & E-Commerce"
+                    data-desc-en="Official platform for premium royal etawa goat milk for respiratory and joint wellness. Includes interactive testimonial video, volume discount order calculator, and integrated courier checkout."
+                    data-desc-id="Situs resmi susu kambing etawa premium untuk kesehatan pernapasan dan sendi. Dilengkapi video interaktif testimoni, kalkulator order hemat, dan checkout integrasi kurir."
+                    data-tags-en="WordPress,WooCommerce,Responsive UI,SEO Optimization"
+                    data-tags-id="WordPress,WooCommerce,UI Responsif,Optimasi SEO">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p5_badge">Herbal & E-Commerce</span>
                         <img src="assets/mockups/Macbook-Air-etawaroyal.com.png" alt="Etawa Royal" loading="lazy" />
@@ -3137,7 +3174,12 @@
                     data-url="https://fondaplafon.com" data-category="Plafon PVC & Konstruksi"
                     data-img="assets/mockups/Macbook-Air-fondaplafon.com.png"
                     data-desc="Website brand produk plafon PVC dekoratif Fonda dengan galeri visual interior hunian modern, kalkulator biaya pasang per meter, dan panduan teknis pemasangan rangka hollow."
-                    data-tags="WordPress,Interior Plafon,Kalkulator Biaya,Galeri" data-category-en="PVC Ceiling & Construction" data-category-id="Plafon PVC & Konstruksi" data-desc-en="Decorative PVC ceiling brand website with modern interior galleries, cost estimator per square meter, and hollow frame technical installation guides." data-desc-id="Website brand produk plafon PVC dekoratif Fonda dengan galeri visual interior hunian modern, kalkulator biaya pasang per meter, dan panduan teknis pemasangan rangka hollow." data-tags-en="WordPress,Interior Ceiling,Cost Estimator,Gallery" data-tags-id="WordPress,Interior Plafon,Kalkulator Biaya,Galeri">
+                    data-tags="WordPress,Interior Plafon,Kalkulator Biaya,Galeri"
+                    data-category-en="PVC Ceiling & Construction" data-category-id="Plafon PVC & Konstruksi"
+                    data-desc-en="Decorative PVC ceiling brand website with modern interior galleries, cost estimator per square meter, and hollow frame technical installation guides."
+                    data-desc-id="Website brand produk plafon PVC dekoratif Fonda dengan galeri visual interior hunian modern, kalkulator biaya pasang per meter, dan panduan teknis pemasangan rangka hollow."
+                    data-tags-en="WordPress,Interior Ceiling,Cost Estimator,Gallery"
+                    data-tags-id="WordPress,Interior Plafon,Kalkulator Biaya,Galeri">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p6_badge">PVC Ceiling</span>
                         <img src="assets/mockups/Macbook-Air-fondaplafon.com.png" alt="Fonda Plafon" loading="lazy" />
@@ -3172,7 +3214,12 @@
                     data-url="https://probosiwiresort.com" data-category="Travel & Pariwisata"
                     data-img="assets/mockups/Macbook-Air-probosiwiresort.com.png"
                     data-desc="Website destinasi resort & cafe di kawasan alam pegunungan asri. Memiliki sistem reservasi kamar online, menu kuliner interaktif, galeri foto 360, dan integrasi Google Maps lokasi."
-                    data-tags="WordPress,Hospitality,Online Booking,Galeri Alam" data-category-en="Travel & Hospitality" data-category-id="Travel & Pariwisata" data-desc-en="Destination resort & cafe website set in scenic mountains. Includes online room reservation system, interactive culinary menu, 360 photo gallery, and Google Maps integration." data-desc-id="Website destinasi resort & cafe di kawasan alam pegunungan asri. Memiliki sistem reservasi kamar online, menu kuliner interaktif, galeri foto 360, dan integrasi Google Maps lokasi." data-tags-en="WordPress,Hospitality,Online Booking,Nature Gallery" data-tags-id="WordPress,Hospitality,Booking Online,Galeri Alam">
+                    data-tags="WordPress,Hospitality,Online Booking,Galeri Alam" data-category-en="Travel & Hospitality"
+                    data-category-id="Travel & Pariwisata"
+                    data-desc-en="Destination resort & cafe website set in scenic mountains. Includes online room reservation system, interactive culinary menu, 360 photo gallery, and Google Maps integration."
+                    data-desc-id="Website destinasi resort & cafe di kawasan alam pegunungan asri. Memiliki sistem reservasi kamar online, menu kuliner interaktif, galeri foto 360, dan integrasi Google Maps lokasi."
+                    data-tags-en="WordPress,Hospitality,Online Booking,Nature Gallery"
+                    data-tags-id="WordPress,Hospitality,Booking Online,Galeri Alam">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p7_badge">Hospitality & Resort</span>
                         <img src="assets/mockups/Macbook-Air-probosiwiresort.com.png" alt="Probosiwi Resort"
@@ -3208,7 +3255,12 @@
                     data-url="https://royalmadinatour.com" data-category="Travel & Umroh"
                     data-img="assets/mockups/Macbook-Air-royalmadinatour.com.png"
                     data-desc="Platform biro perjalanan ibadah umroh dan haji plus berizin resmi Kemenag. Menampilkan paket keberangkatan terupdate, fasilitas hotel bintang lima, dan form pendaftaran jemaah aman."
-                    data-tags="WordPress,Travel Umroh,Paket Wisata,Kemenag Licensed" data-category-en="Travel & Umrah" data-category-id="Travel & Umroh" data-desc-en="Official Ministry of Religious Affairs licensed Umrah and Hajj Plus travel agency platform. Features updated departure packages, 5-star hotel amenities, and secure pilgrim registration form." data-desc-id="Platform biro perjalanan ibadah umroh dan haji plus berizin resmi Kemenag. Menampilkan paket keberangkatan terupdate, fasilitas hotel bintang lima, dan form pendaftaran jemaah aman." data-tags-en="WordPress,Umrah Travel,Tour Packages,Ministry Licensed" data-tags-id="WordPress,Travel Umroh,Paket Wisata,Izin Kemenag">
+                    data-tags="WordPress,Travel Umroh,Paket Wisata,Kemenag Licensed" data-category-en="Travel & Umrah"
+                    data-category-id="Travel & Umroh"
+                    data-desc-en="Official Ministry of Religious Affairs licensed Umrah and Hajj Plus travel agency platform. Features updated departure packages, 5-star hotel amenities, and secure pilgrim registration form."
+                    data-desc-id="Platform biro perjalanan ibadah umroh dan haji plus berizin resmi Kemenag. Menampilkan paket keberangkatan terupdate, fasilitas hotel bintang lima, dan form pendaftaran jemaah aman."
+                    data-tags-en="WordPress,Umrah Travel,Tour Packages,Ministry Licensed"
+                    data-tags-id="WordPress,Travel Umroh,Paket Wisata,Izin Kemenag">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p8_badge">Umrah & Hajj</span>
                         <img src="assets/mockups/Macbook-Air-royalmadinatour.com.png" alt="Royal Madina Tour"
@@ -3244,7 +3296,12 @@
                     data-url="https://saranailmu.com" data-category="Edukasi & Personal"
                     data-img="assets/mockups/Macbook-Air-saranailmu.com.png"
                     data-desc="Toko online WooCommerce produk meja belajar lipat ergonomis untuk anak-anak dengan fitur custom motif kartun, integrasi ongkos kirim otomatis JNE/SiCepat, dan katalog interaktif."
-                    data-tags="WordPress,WooCommerce,Katalog Produk,Custom Desain" data-category-en="Education & Personal" data-category-id="Edukasi & Personal" data-desc-en="WooCommerce online store for ergonomic foldable children study desks with custom cartoon characters, automated shipping cost calculation (JNE/SiCepat), and interactive product catalog." data-desc-id="Toko online WooCommerce produk meja belajar lipat ergonomis untuk anak-anak dengan fitur custom motif kartun, integrasi ongkos kirim otomatis JNE/SiCepat, dan katalog interaktif." data-tags-en="WordPress,WooCommerce,Product Catalog,Custom Design" data-tags-id="WordPress,WooCommerce,Katalog Produk,Desain Kustom">
+                    data-tags="WordPress,WooCommerce,Katalog Produk,Custom Desain"
+                    data-category-en="Education & Personal" data-category-id="Edukasi & Personal"
+                    data-desc-en="WooCommerce online store for ergonomic foldable children study desks with custom cartoon characters, automated shipping cost calculation (JNE/SiCepat), and interactive product catalog."
+                    data-desc-id="Toko online WooCommerce produk meja belajar lipat ergonomis untuk anak-anak dengan fitur custom motif kartun, integrasi ongkos kirim otomatis JNE/SiCepat, dan katalog interaktif."
+                    data-tags-en="WordPress,WooCommerce,Product Catalog,Custom Design"
+                    data-tags-id="WordPress,WooCommerce,Katalog Produk,Desain Kustom">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p9_badge">Education & E-Comm</span>
                         <img src="assets/mockups/Macbook-Air-saranailmu.com.png" alt="Sarana Ilmu" loading="lazy" />
@@ -3279,7 +3336,12 @@
                     data-url="https://guntursetyo.com" data-category="Edukasi & Personal"
                     data-img="assets/mockups/Macbook-Air-guntursetyo.com.png"
                     data-desc="Platform personal branding dan portofolio profesional pakar bisnis dan konsultan. Dilengkapi dengan artikel insight, jadwal seminar publik, dan modul konsultasi privat."
-                    data-tags="WordPress,Personal Branding,SEO Profil,Konsultasi" data-category-en="Education & Personal" data-category-id="Edukasi & Personal" data-desc-en="Personal branding platform and professional portfolio for business consultant and speaker. Equipped with insightful articles, public seminar schedules, and private consultation booking." data-desc-id="Platform personal branding dan portofolio profesional pakar bisnis dan konsultan. Dilengkapi dengan artikel insight, jadwal seminar publik, dan modul konsultasi privat." data-tags-en="WordPress,Personal Branding,Profile SEO,Consulting" data-tags-id="WordPress,Personal Branding,SEO Profil,Konsultasi">
+                    data-tags="WordPress,Personal Branding,SEO Profil,Konsultasi"
+                    data-category-en="Education & Personal" data-category-id="Edukasi & Personal"
+                    data-desc-en="Personal branding platform and professional portfolio for business consultant and speaker. Equipped with insightful articles, public seminar schedules, and private consultation booking."
+                    data-desc-id="Platform personal branding dan portofolio profesional pakar bisnis dan konsultan. Dilengkapi dengan artikel insight, jadwal seminar publik, dan modul konsultasi privat."
+                    data-tags-en="WordPress,Personal Branding,Profile SEO,Consulting"
+                    data-tags-id="WordPress,Personal Branding,SEO Profil,Konsultasi">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p10_badge">Personal Branding</span>
                         <img src="assets/mockups/Macbook-Air-guntursetyo.com.png" alt="Guntur Setyo" loading="lazy" />
@@ -3314,7 +3376,12 @@
                     data-url="https://berasporangdietmeal.com" data-category="Herbal & E-Commerce"
                     data-img="assets/mockups/Macbook-Air-berasporangdietmeal.com.png"
                     data-desc="Website produk makanan sehat berbahan umbi porang (konjac) rendah kalori dan nol gula untuk kebutuhan diet keto dan pencegahan diabetes. Didukung fitur kalkulator kalori makanan harian."
-                    data-tags="WordPress,Healthy Food,Diet Porang,Kalkulator Kalori" data-category-en="Herbal & E-Commerce" data-category-id="Herbal & E-Commerce" data-desc-en="Healthy food product website featuring low-calorie, zero-sugar konjac rice for keto diet and diabetes prevention. Includes interactive daily calorie estimator." data-desc-id="Website produk makanan sehat berbahan umbi porang (konjac) rendah kalori dan nol gula untuk kebutuhan diet keto dan pencegahan diabetes. Didukung fitur kalkulator kalori makanan harian." data-tags-en="WordPress,Healthy Food,Konjac Diet,Calorie Calculator" data-tags-id="WordPress,Makanan Sehat,Diet Porang,Kalkulator Kalori">
+                    data-tags="WordPress,Healthy Food,Diet Porang,Kalkulator Kalori"
+                    data-category-en="Herbal & E-Commerce" data-category-id="Herbal & E-Commerce"
+                    data-desc-en="Healthy food product website featuring low-calorie, zero-sugar konjac rice for keto diet and diabetes prevention. Includes interactive daily calorie estimator."
+                    data-desc-id="Website produk makanan sehat berbahan umbi porang (konjac) rendah kalori dan nol gula untuk kebutuhan diet keto dan pencegahan diabetes. Didukung fitur kalkulator kalori makanan harian."
+                    data-tags-en="WordPress,Healthy Food,Konjac Diet,Calorie Calculator"
+                    data-tags-id="WordPress,Makanan Sehat,Diet Porang,Kalkulator Kalori">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p11_badge">Healthy Diet</span>
                         <img src="assets/mockups/Macbook-Air-berasporangdietmeal.com.png" alt="Beras Porang Diet Meal"
@@ -3350,7 +3417,12 @@
                     data-url="https://pasangplafonpvcjogja.com" data-category="Plafon PVC & Konstruksi"
                     data-img="assets/mockups/Macbook-Air-pasangplafonpvcjogja.com.png"
                     data-desc="Website jasa aplikator dan kontraktor spesialis pasang plafon PVC wilayah Yogyakarta dan sekitarnya. Terintegrasi kalkulator estimasi biaya per meter persegi dan tombol WhatsApp direct survey."
-                    data-tags="WordPress,Local SEO,Jasa Aplikator,Survey Gratis" data-category-en="PVC Ceiling & Construction" data-category-id="Plafon PVC & Konstruksi" data-desc-en="Specialist contractor and applicator website for PVC ceiling installation in Yogyakarta and surrounding regions. Integrated with per-square-meter cost estimation and direct WhatsApp survey button." data-desc-id="Website jasa aplikator dan kontraktor spesialis pasang plafon PVC wilayah Yogyakarta dan sekitarnya. Terintegrasi kalkulator estimasi biaya per meter persegi dan tombol WhatsApp direct survey." data-tags-en="WordPress,Local SEO,Applicator Service,Free Survey" data-tags-id="WordPress,SEO Lokal,Jasa Aplikator,Survey Gratis">
+                    data-tags="WordPress,Local SEO,Jasa Aplikator,Survey Gratis"
+                    data-category-en="PVC Ceiling & Construction" data-category-id="Plafon PVC & Konstruksi"
+                    data-desc-en="Specialist contractor and applicator website for PVC ceiling installation in Yogyakarta and surrounding regions. Integrated with per-square-meter cost estimation and direct WhatsApp survey button."
+                    data-desc-id="Website jasa aplikator dan kontraktor spesialis pasang plafon PVC wilayah Yogyakarta dan sekitarnya. Terintegrasi kalkulator estimasi biaya per meter persegi dan tombol WhatsApp direct survey."
+                    data-tags-en="WordPress,Local SEO,Applicator Service,Free Survey"
+                    data-tags-id="WordPress,SEO Lokal,Jasa Aplikator,Survey Gratis">
                     <div class="project-mockup-wrap">
                         <span class="project-card-badge" data-i18n="p12_badge">Construction Services</span>
                         <img src="assets/mockups/Macbook-Air-pasangplafonpvcjogja.com.png" alt="Pasang Plafon PVC Jogja"
@@ -4445,7 +4517,7 @@
 
         function updateButtonUI(lang) {
             // Update both desktop and mobile lang toggles
-            [document.getElementById('lang-toggle'), document.getElementById('lang-toggle-mobile')].forEach(function(switchWrap) {
+            [document.getElementById('lang-toggle'), document.getElementById('lang-toggle-mobile')].forEach(function (switchWrap) {
                 if (switchWrap) {
                     if (lang === 'id') {
                         switchWrap.classList.add('is-id');
