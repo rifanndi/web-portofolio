@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "web-portofolio",
+			"path": "."
+		},
+		{
+			"name": "gambar baru",
+			"path": "C:/Users/ACER/Downloads/gambar baru"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web-portofolio"
+	}
+}
