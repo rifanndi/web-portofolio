@@ -1214,9 +1214,10 @@
             font-size: 0.82rem;
             padding: 6px 14px;
             border-radius: var(--radius-sm);
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            color: #e2e8f0;
+            background: rgba(0, 0, 0, 0.03);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            color: var(--text-main);
+            font-weight: 600;
             transition: var(--transition-smooth);
             display: inline-flex;
             align-items: center;
@@ -1224,21 +1225,23 @@
         }
 
         .skill-pill:hover {
-            background: rgba(0, 242, 254, 0.12);
-            border-color: rgba(0, 242, 254, 0.4);
-            color: var(--tone-cyan);
+            background: rgba(37, 99, 235, 0.08);
+            border-color: rgba(37, 99, 235, 0.3);
+            color: #2563EB;
             transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
         }
 
         .skill-pill.highlight {
-            background: rgba(155, 81, 224, 0.12);
-            border-color: rgba(155, 81, 224, 0.3);
-            color: #d8b4fe;
+            background: rgba(155, 81, 224, 0.08);
+            border-color: rgba(155, 81, 224, 0.25);
+            color: #7C3AED;
         }
 
         .skill-pill.highlight:hover {
             border-color: var(--tone-purple);
-            color: var(--text-main);
+            color: var(--tone-purple);
+            box-shadow: 0 4px 12px rgba(155, 81, 224, 0.15);
         }
 
         /* ==========================================================================
@@ -2765,12 +2768,30 @@
                 </div>
                 <div class="bento-item bento-span-2">
                     <div class="bento-floating-num">03</div>
-                    <h3 class="bento-card-title" data-i18n="bento_skills_title">Core Skills</h3>
-                    <div class="skill-pills">
+                    <h3 class="bento-card-title" data-i18n="bento_skills_title">Core Competencies & Skills</h3>
+                    <div class="skill-pills" style="margin-bottom: 24px;">
                         <span class="skill-pill">Custom Theme & Plugin Dev</span>
                         <span class="skill-pill">React.js & Material UI (MUI)</span>
                         <span class="skill-pill highlight">Technical SEO & Schema Markup</span>
                         <span class="skill-pill">LLM Prompt & Workflow</span>
+                    </div>
+                    
+                    <h3 class="bento-card-title" style="color: var(--text-muted); font-size: 1.05rem;" data-i18n="bento_tools_title">Core Tools & Technologies</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Figma</span>
+                        <span class="skill-pill">Canva</span>
+                        <span class="skill-pill">VS Code</span>
+                        <span class="skill-pill">Antigravity IDE</span>
+                        <span class="skill-pill">Google Stitch</span>
+                        <span class="skill-pill">WP Studio</span>
+                        <span class="skill-pill">Git</span>
+                        <span class="skill-pill">phpMyAdmin</span>
+                        <span class="skill-pill">Elementor Pro</span>
+                        <span class="skill-pill">WooCommerce</span>
+                        <span class="skill-pill">Gravity Forms</span>
+                        <span class="skill-pill">Rank Math SEO</span>
+                        <span class="skill-pill">Yoast SEO</span>
+                        <span class="skill-pill">Google Workspace</span>
                     </div>
                 </div>
             </div>
@@ -4205,6 +4226,7 @@
                 "bento_summary_p1": "Full-Stack WordPress & Front-End Developer with over <strong>3 years</strong> of experience in end-to-end web application development cycles, WordPress theme & plugin customization, and Core Web Vitals optimization.",
                 "bento_summary_p2": "Proven track record in building multinational corporate platforms and WooCommerce-based online stores by combining WordPress expertise and modern front-end technologies (React.js, Material UI, JavaScript ES6+). Capable of integrating technical SEO strategies, data analysis, and Large Language Model (LLM) optimization to boost system performance and operational efficiency.",
                 "bento_skills_title": "Core Competencies & Skills",
+                "bento_tools_title": "Core Tools & Technologies",
                 "bento_edu_title": "Education & Background",
                 "edu_title": "Education",
                 "edu_degree": "Associate's Degree (D3) in Computer Science",
@@ -4368,6 +4390,7 @@
                 "bento_summary_p1": "Full-Stack WordPress & Front-End Developer berpengalaman lebih dari <strong>3 tahun</strong> dalam siklus pengembangan aplikasi web end-to-end, kustomisasi tema & plugin WordPress, serta optimasi Core Web Vitals.",
                 "bento_summary_p2": "Rekam jejak terbukti dalam membangun platform korporat multinasional dan toko online berbasis WooCommerce dengan menggabungkan keahlian WordPress dan teknologi front-end modern (React.js, Material UI, JavaScript ES6+). Mampu mengintegrasikan strategi SEO teknis, analisis data, dan optimasi Large Language Model (LLM) guna mendongkrak performa sistem dan efisiensi operasional.",
                 "bento_skills_title": "Kompetensi Inti & Keahlian",
+                "bento_tools_title": "Alat & Teknologi Utama",
                 "bento_edu_title": "Pendidikan & Latar Belakang",
                 "edu_title": "Pendidikan",
                 "edu_degree": "Ahli Madya (D3) Ilmu Komputer",
